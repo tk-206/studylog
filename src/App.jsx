@@ -31,7 +31,7 @@ function App() {
 
       {/* 주간 통계 */}
       <div className="mb-4 p-4 bg-blue-100 rounded">
-        이번 주 총 공부 시간: {getWeeklyTotal(records)}분
+        이번 주 총 공부 시간: {getWeeklyTotal(records)}분(시간 분 변경)
       </div>
 
       {/* 주간 그래프 */}
