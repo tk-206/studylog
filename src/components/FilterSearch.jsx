@@ -1,5 +1,6 @@
 import React from "react";
 
+/* 태그 필터 */
 function FilterSearch({ filter, setFilter, records }) {
   const tags = Array.from(new Set(records.map(r => r.tag))).filter(t => t);
 
