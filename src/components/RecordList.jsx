@@ -1,5 +1,6 @@
 import React from "react";
 
+/* 기록 목록 */
 function RecordList({ records, deleteRecord }) {
   if (records.length === 0)
     return <p className="text-gray-500">아직 기록이 없습니다.</p>;
