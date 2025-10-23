@@ -1,5 +1,5 @@
 import React from "react";
-
+/* 차트 */
 function WeeklyChart({ weeklyData }) {
   const days = ["일","월","화","수","목","금","토"];
   return (
