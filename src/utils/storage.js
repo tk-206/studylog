@@ -1,5 +1,6 @@
 const STORAGE_KEY = "studylog_records";
 
+/* 데이터 저장 및 불러오기 유틸리티 함수 */
 export const saveRecords = (records) => {
   try {
     if (!Array.isArray(records)) return;
