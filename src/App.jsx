@@ -19,7 +19,7 @@ function App() {
     newRecords.splice(index, 1);
     setRecords(newRecords);
   };
-
+ // 필터링된 기록
   const filteredRecords = records.filter(r => 
     (!filter.tag || r.tag === filter.tag) &&
     (!filter.search || r.subject.includes(filter.search))
