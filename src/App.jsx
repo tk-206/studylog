@@ -9,7 +9,7 @@ import { getWeeklyTotal, getWeeklyRecords } from "./utils/stats";
 function App() {
   const [records, setRecords] = useState([]);
   const [filter, setFilter] = useState({ tag: "", search: "" });
-
+  /* 초기 로드 및 저장 */
   useEffect(() => setRecords(loadRecords()), []);
   useEffect(() => saveRecords(records), [records]);
 
