@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-
+/* 기록 폼 */
 function RecordForm({ addRecord }) {
   const [subject, setSubject] = useState("");
   const [duration, setDuration] = useState("");
